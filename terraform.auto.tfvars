@@ -37,3 +37,6 @@ tags = {
   Managed-By      = "saikat-terraform"
   Billing-Account = "515805452951"
 }
+
+  aws_access_key_id = "AKIAXQGDGTKLQWAGYGTB"
+  aws_secret_access_key = "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"
