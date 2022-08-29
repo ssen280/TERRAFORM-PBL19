@@ -10,10 +10,10 @@
 
 terraform {
   backend "remote" {
-    organization = "ssen280"
+    organization = "saikatsen"
 
     workspaces {
-      name = "PBL19"
+      name = "TERRAFORM-PBL19"
     }
   }
 }
