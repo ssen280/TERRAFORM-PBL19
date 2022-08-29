@@ -52,7 +52,7 @@ resource "aws_route53_record" "tooling" {
 
 # create records for wordpress
 resource "aws_route53_record" "wordpress" {
-  zone_id = data.aws_route53_zone.project_19_zone.zone_id
+  zone_id = data.aws_route53_zone.saikat.zone_id
   name    = "wordpress.saikat.co.in"
   type    = "A"
 
