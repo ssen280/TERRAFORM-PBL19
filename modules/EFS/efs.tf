@@ -9,7 +9,7 @@ resource "aws_kms_key" "ACS-kms" {
     {
       "Sid": "Enable IAM User Permissions",
       "Effect": "Allow",
-      "Principal": { "AWS": "arn:aws:iam::${var.account_no}:user/segun" },
+      "Principal": { "AWS": "arn:aws:iam::${var.account_no}:user/saikat-terraform" },
       "Action": "kms:*",
       "Resource": "*"
     }
@@ -97,4 +97,3 @@ resource "aws_efs_access_point" "tooling" {
 
   }
 }
-
