@@ -37,8 +37,13 @@ locals {
     datalayer-sg = {
       name        = "datalayer-sg"
       description = "data layer security group"
-
-
+    }
+    
+    compute-sg = {
+      name        = "compute-sg"
+      description = "compute security group"
     }
   }
 }
+
+
