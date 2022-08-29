@@ -28,12 +28,12 @@ keypair = "devops"
 
 master-password = "devopspblproject"
 
-master-username = "david"
+master-username = "saikat"
 
-account_no = "696742900004"
+account_no = "515805452951"
 
 tags = {
   Owner-Email     = "infradev-segun@darey.io"
-  Managed-By      = "Terraform"
-  Billing-Account = "1234567890"
+  Managed-By      = "saikat-terraform"
+  Billing-Account = "515805452951"
 }
