@@ -12,8 +12,3 @@ provider "aws" {
 
 }
 
-#provider "aws" {
-  #region = var.region
-  #access_key = "AKIAXQGDGTKLQWAGYGTB"
-  #secret_key = "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"
-#}
